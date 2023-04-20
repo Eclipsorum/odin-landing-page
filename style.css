@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,900;1,300&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: 700;
+    margin-top: 8px;
+    padding: 8px 24px;
+    border-radius: 8px;
+}
+
+/* HEADER'S STYLING */
+
+header, .hero-wrap, .navbar a {
+    background-color: #1F2937;
+    color: #f9faf8;
+}
+
+header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 12px 150px;
+    margin: -8px;
+
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bolder;
+    min-width: 96px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 24px;
+}
+
+.navbar li {
+    min-width: 60px;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+/* END OF HEADER'S STYLING */
+
+
+/* HERO'S STYLING */
+
+.hero-wrap {
+    display: flex;
+    margin: 8px -8px;
+    height: 275px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px;
+}
+
+.hero-sign {
+    width: 445px;
+
+}
+
+.hero-sign .main-text {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-sign .text {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.hero-img {
+    background-color: grey;
+    width: 500px;
+    min-width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* END OF HERO'S STYLING */
