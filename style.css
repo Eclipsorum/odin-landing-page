@@ -37,7 +37,7 @@ header {
 
 .dragon-logo {
     width: 150px;
-    height: auto;
+    height: 66px;
 }
 
 .navbar ul {
@@ -46,9 +46,6 @@ header {
     padding: 0;
     display: flex;
     gap: 24px;
-}
-
-.navbar li {
 }
 
 .navbar a {
