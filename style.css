@@ -68,7 +68,6 @@ header {
 
 .hero-sign {
     width: 445px;
-
 }
 
 .hero-sign .main-text {
@@ -92,3 +91,88 @@ header {
 }
 
 /* END OF HERO'S STYLING */
+
+
+
+/* INFO'S STYLING */
+
+.info-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    min-width: 800px;
+    margin-bottom: 80px;
+}
+
+.info-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1F2937;
+    margin: 36px;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+}
+
+.frame {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 16px;
+}
+
+/* END OF INFO'S STYLING */
+
+
+
+/* QUOTE'S STYLING */
+
+.quote-wrap {
+    background-color: #e5e7eb;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #1F2937;
+    width: 785px;
+
+}
+
+.text-quote {
+    font-style: italic;
+    font-size: 36px;
+
+}
+
+.text-author {
+    font-weight: 700;
+    font-size: 24px;
+    width: 100%;
+    text-align: right;
+}
+
+/* END OF QUOTE'S STYLING */
+
+
+
+/* SIGN'S STYLING */
+
+/* END OF SIGN'S STYLING */
+
